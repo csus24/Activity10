@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-light {
+	color: white;
+}
+.h-25 {
+	height: 25%;
+}
+.P-3 {
+	padding: 15px;
+}
+.bg-success {
+	background-color: forestgreen;
+}
+.bg-warning {
+	background-color: orange;
+}
+.bg-danger {
+	background-color: darkred;
+}
+
+.bg-secondary {
+	background-color: lightslategray;
+}
+
+
+
+/*CSS and Boostrap Flexbox*/
+
+.d-flex {
+	display: flex;
+}
+
+.justify-content-center {
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+.flex-column-reverse {
+	flex-direction: column-reverse;
+}
